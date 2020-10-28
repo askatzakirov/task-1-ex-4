@@ -1,0 +1,379 @@
+body{
+	width: 100%;
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+}
+.main_container{
+	background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%), url("images/Rectangle 3.jpg"); /* Used if the image is unavailable */
+	width: 100%;
+	height: 600px;
+	left: 0px;
+	top: 0px;
+}
+.main_div{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+	top: 30px;
+	
+}
+.nav{
+	display: flex;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	align-items: center;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.nav2{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	flex: 0.4;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 17px;
+	align-items: center;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.nav_in{
+	margin-right:6px;
+}
+#login{
+	border: 1px solid #FFFFFF;
+	box-sizing: border-box;
+	border-radius: 6px;
+	padding: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.budget_txt{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+#cloud_text{
+	margin-top: 100px;
+	width: 578px;
+	height: 86px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 72px;
+	line-height: 86px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+#budget_text1{
+	margin-top: 40px;
+	justify-content: center;
+	align-items: center;
+	width: 480px;
+	height: 124px
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 150%;
+	/* or 36px */
+
+	text-align: center;
+	color: #FFFFFF;
+}
+#sign{
+	margin-top: 40px;
+	background: #FFFFFF;
+	border: 1px solid #FFFFFF;
+	box-sizing: border-box;
+	border-radius: 6px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-size: 12px;
+	width: 100px;
+	height: 30px;
+	padding: 8px;
+	color: red;
+	text-align: center;
+}
+
+.part_two{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 200px;
+	padding-bottom: 50px;
+}
+.txt_3{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 445px; 
+	left: 0;
+}
+#easy_txt{
+	width: 445px;
+	height: 107px;
+	top: 922px;
+	left: 0;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 43px;
+	color: #000000;
+}
+#txt_easy_after{
+	display: inline-block;
+	width: 420px;
+	height: 115px;
+	display: inline-block;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 140%;
+	/* or 20px */
+
+	text-align: centerSS;
+
+	color: #000000;
+}
+.learn{
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 140%;
+	/* identical to box height, or 20px */
+
+	text-align: justify;
+	text-decoration: none;
+	color: #ED4C5C;
+}
+
+.main3{
+	background-color: #F8F6F6; 
+}
+
+.features{
+	text-align: center;
+	font-size: 30px;
+	margin-top: 50px;
+}
+.main3_1{
+	display: flex;
+	flex-direction: row;;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.img3{
+	width: 350px;
+	height: 250px;
+	border-radius: 8px;
+}
+.img_rec{
+	position: relative;
+	top:-120px;
+	width: 300px;
+	height: 200px;
+	border-radius: 8px;
+}
+.textt{
+	position: relative;
+	top:-220px;
+	left: 60px;
+	width: 220px;
+	height: 160px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+
+}
+.naming{
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+}
+.naming2{
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 22px;
+	text-align: center;
+}
+.numbers{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	
+}
+.num_pic{
+	position: relative;
+	left: 25px;
+	top: -45px;
+	justify-content: center;
+}
+.any{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 30px;
+	background: #ED4C5C;
+}
+.right{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	flex:3;
+}
+.text_class{
+	padding-top: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 400px;
+}
+
+.picture{
+	padding-top: 50px;
+	display: flex;
+	grid-column: row;
+	width: 600px;
+}
+#third{
+	position: relative;
+	left: -700px;
+	top: -20px;
+
+}
+#second{
+	position: relative;
+	left: -200px;
+}
+
+.contact{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+#contact{
+	padding-top: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 400px;
+
+}
+#contact2{
+	width:600px;
+	position: auto;
+}
+.n{
+	width: 185px;
+	height: 40px;
+	border-radius: 6px;
+}
+.nm{
+	width: 392px;
+	height:40px;
+	border-radius: 6px;
+}
+#nm{
+	width: 400px;
+	height: 40px;
+	border-radius: 6px;
+}
+#submit{
+	width: 130px;
+	height: 40px;
+	color: white;
+	background: red;
+	border-radius: 6px;
+	border: 1.5px solid #ED4C5C;
+}
+#contact_txt{
+	font-family: Lato;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 43px;
+	color: #000000;
+}
+#contact{
+	width: 400px;
+	
+}
+#contact2{
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 140%;
+	/* or 20px */
+	width: 400px;
+	text-align: justify;
+	
+	color: #000000;
+}
+.end{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.end_second{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.title{
+	font-family: Lato;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+	/* identical to box height */
+
+
+	color: #101010;
+}
+
+#copyright{
+	margin-top: 50px;
+	margin-left: 100px;
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 14px;
+	color: #101010;
+}
+#background{
+	background: #FAFAFA;
+}
